@@ -1,0 +1,28 @@
+{
+
+"layer": "top",
+"position": "bottom",
+"width": 950,
+"height": 50,
+
+"spacing": 10,
+
+"modules-left": [
+	"custom/button",
+	"hyprland/workspaces"
+],
+
+"modules-center": [
+	"clock"
+],
+
+"modules-right": [
+	"tray",
+	"battery",
+],
+
+"custom/button": {
+	"format": "󰣇{}",
+	"on-click": "rofi -show drun",
+}
+}

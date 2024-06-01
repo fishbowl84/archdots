@@ -1,0 +1,46 @@
+* {
+	font-family: JetBrainsMonoNerdFont;
+	font-size: 14px;
+
+}
+
+window#waybar {
+	border-radius: 9px;
+	background-color: rgb(57,67,69);
+	border-bottom: 4px solid rgb(112,98,137);
+	color: #ffffff;
+}
+
+#workspaces {
+	border-radius: 3px;
+	margin-top: 6px;
+	margin-bottom: 6px;
+	background-color: #593fd0;
+}
+
+#clock {
+	border-radius: 3px;
+	margin-top: 6px;
+	margin-bottom: 6px;
+	background-color: #733fd0;
+}
+
+#battery {
+	border-radius: 3px;
+	margin-top: 6px;
+	margin-bottom: 6px;
+	padding-left: 6px;
+	padding-right: 6px;
+	background-color: #eb3f92;
+}
+
+#custom-button {
+	border-radius: 3px;
+	margin-top: 6px;
+	margin-bottom: 6px;
+	padding-left: 13px;
+	padding-right: 15px;
+	background-color: #339eb2;	
+}
+
+
