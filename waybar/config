@@ -1,19 +1,16 @@
 {
 
 "layer": "top",
-"position": "bottom",
-"width": 950,
-"height": 50,
+"position": "top",
+"width": 1366,
+"height": 25,
 
-"spacing": 10,
+"spacing": 7,
 
 "modules-left": [
 	"custom/button",
-	"hyprland/workspaces"
-],
-
-"modules-center": [
-	"clock"
+	"hyprland/workspaces",
+	"clock",
 ],
 
 "modules-right": [
@@ -24,5 +21,29 @@
 "custom/button": {
 	"format": "󰣇{}",
 	"on-click": "rofi -show drun",
+},
+
+"hyprland/workspaces": {
+	"format": "{icon}",
+	"format-icons": {
+	"default": "",
+	"1":"",
+	"2":"",
+	"3":"",
+	"4":"",
+	"5":"",
+	"6":"",
+	"7":"",
+	"8":"",
+	"9":"",
+	"active": "",
+},
+"persistent_workspaces": {
+	"1": [],
+	"2": [],
+	"3": [],
+	"4": [],
+	"5": [],
+}
 }
 }
